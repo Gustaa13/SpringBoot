@@ -1,5 +1,5 @@
 CREATE TABLE product (
-    id varchar primary key,
-    name varchar(30) NOT NULL,
-    price int NOT NULL
+    id VARCHAR(36) PRIMARY KEY,
+    name VARCHAR(30) NOT NULL,
+    price INT NOT NULL
 );
